@@ -1,0 +1,74 @@
+/*******tic-tac-toe******/
+#tic-tac-toe .disable {text-transform:uppercase; font-size:30px; font-family:Georgia, "Times New Roman", Times, serif}
+#tic-tac-toe #game li {float:left; padding:0; list-style:none; text-align:center; margin-bottom:20px; color:#fff; height:60px; line-height:60px; font-size:40px; color:#ccc}
+#tic-tac-toe #game li.disable{color:#fff}
+#tic-tac-toe #game {float:left; padding:0; clear:both}
+.new_span {width:100%}
+#tic-tac-toe #reset { padding:5px 10px; color:#fff; font-family:Arial, Helvetica, sans-serif; font-size:20px; clear:both; cursor:pointer; float:left; text-align:center; text-transform:uppercase; outline:none; width:204px}
+.input-prepend span.pre_text {width:55px}
+.input-prepend .span1{width:93px}
+.input-prepend {margin-bottom:10px}
+.clr {clear:both; height:0}
+#tic-tac-toe h1 {text-align:center; font-size:28px}
+#tic-tac-toe li::-moz-selection {background:none;color:#000;}
+#tic-tac-toe li::-webkit-selection {background:none;color:#000;}
+#tic-tac-toe {width:100%; margin:0 auto}
+.input-append .win_times {background:#fff; width:101px}
+.input-append .win_text {width:52px}
+/*******tic-tac-toe END******/
+
+.grid-box-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.grid-box-container div {
+    text-align:center;
+    margin: 20px;
+    height:60px;
+    width: 60px;
+    line-height:60px;
+    font-size:40px;
+    color:#ccc;
+    padding: 15px 25px;
+}
+
+.game-board {
+	margin-top: 50px;
+	padding: 10px;
+    margin: 0 auto;
+    width: 25%;
+}
+
+.grid-box, .green-player, .red-player {
+	font-size: 35px;
+	padding: 15px 25px;
+	width: 80px;
+	height: 80px;
+	margin:0px;
+	background-color: #FCFCFC;
+	outline: none;
+}
+.green-player {
+	background-color: green;
+	color: #FFF;
+}
+.red-player {
+	background-color: red;
+	color: #FFF;
+}
+
+.score-card {
+	font-weight: bold;
+	line-height: 25px;
+    justify-content: center;
+    display: grid;
+}
+.score-card span {
+	font-weight: normal;
+}
+
+.row-flex{
+    display: flex;
+    justify-content: center;
+}

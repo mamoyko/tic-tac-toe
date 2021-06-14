@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Tic Tac Toe game</title>
+    <link rel='stylesheet prefetch' href='https://getbootstrap.com/2.3.2/assets/css/bootstrap.css'>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div id="tic-tac-toe">
+        <div class="span3 new_span">
+            <div class="row row-flex">
+                <h1 class="span3">Tic Tac Toe</h1>
+            </div>
+            <div class="row row-flex">
+                <div class="span3">
+                    <div class="input-prepend input-append">
+                        <input type="number" id="gameSize" min="0" />
+                    </div>
+                    <div><button type="button" onclick="generateGame()" id="play-game-btn"
+                            class="btn-success btn">Play Game</button></div>
+                </div>
+            </div>
+            <div id="game-board" class="game-board">
+                Please select your game from above, then press 'Start Game'.
+            </div>
+            <div class="score-card">
+                <div>Player X Score: <span id="score-X">0</span></div>
+                <div>Player Y Score: <span id="score-Y">0</span></div>
+            </div>
+            <div class="clr">&nbsp;</div>
+        </div>
+    </div>
+    <script src='https://code.jquery.com/jquery-1.7.2.min.js'></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
